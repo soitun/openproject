@@ -24,6 +24,22 @@ it:
   activities:
     index:
       no_results_title_text: Non c'è stata alcuna attività per il progetto in questo lasso di tempo.
+    work_packages:
+      activity_tab:
+        no_results_title_text: No activity to display
+        no_results_description_text: "Choose \"Show everything\" to show all activity and comments"
+        label_activity_show_all: "Show everything"
+        label_activity_show_only_comments: "Show comments only"
+        label_activity_show_only_changes: "Show changes only"
+        label_sort_asc: "Newest at the bottom"
+        label_sort_desc: "Newest on top"
+        label_type_to_comment: "Type here to comment"
+        label_submit_comment: "Submit comment"
+        changed_on: "changed on"
+        created_on: "created this on"
+        changed: "changed"
+        created: "created"
+        commented: "commented"
   admin:
     plugins:
       no_results_title_text: Al momento non vi sono plugin installati.
@@ -39,16 +55,9 @@ it:
         accent-color: "Accento"
         header-bg-color: "Sfondo intestazione"
         header-item-bg-hover-color: "Sfondo intestazione al passaggio del mouse"
-        header-item-font-color: "Font intestazione"
-        header-item-font-hover-color: "Font intestazione al passaggio del mouse"
-        header-border-bottom-color: "Bordo intestazione"
         main-menu-bg-color: "Sfondo del menu principale"
         main-menu-bg-selected-background: "Menu principale quando selezionato"
         main-menu-bg-hover-background: "Menu principale al passaggio del mouse"
-        main-menu-font-color: "Font del menu principale"
-        main-menu-selected-font-color: "Font del menu principale quando selezionato"
-        main-menu-hover-font-color: "Font del menu principale al passaggio del mouse"
-        main-menu-border-color: "Bordo del menu principale"
       custom_colors: "Colori personalizzati"
       customize: "Personalizza la tua installazione OpenProject con il tuo logo e i tuoi colori."
       enterprise_notice: "Questa piccola aggiunta è disponibile solo per chi si è iscritto alla Enterprise Edition come speciale ringraziamento per il contributo finanziario allo sviluppo di OpenProject."
@@ -212,6 +221,10 @@ it:
         blankslate:
           title: "La tua lista di elementi è vuota"
           description: "Inizia aggiungendo elementi al campo personalizzato di tipo gerarchia. Ogni elemento può essere utilizzato per creare una gerarchia sottostante. Per navigare e creare sottoelementi all'interno di una gerarchia, fai clic sull'elemento creato."
+        actions: "Item actions"
+        placeholder:
+          label: "Item label"
+          short: "Short name"
       notice:
         remember_items_and_projects: "Ricorda di impostare elementi e progetti nelle rispettive schede per questo campo personalizzato."
     text_add_new_custom_field: >
@@ -226,6 +239,7 @@ it:
       is_required: "Contrassegna il campo personalizzato come obbligatorio. Ciò renderà obbligatorio compilare il campo durante la creazione di nuove risorse o l'aggiornamento di risorse esistenti."
       is_required_for_project: "Spunta la casella per abilitare questo attributo e renderlo necessario in tutti i progetti. Non può essere disattivato per i singoli progetti."
       is_for_all: "Contrassegna il campo personalizzato come disponibile in tutti i progetti esistenti e nuovi."
+      multi_select: "Allows the user to assign multiple values to this custom field."
       searchable: "Includi i valori dei campi quando si utilizza la funzionalità di ricerca globale."
       searchable_for_project: "Spunta la casella per rendere questo attributo disponibile come filtro negli elenchi dei progetti."
       editable: "Consenti che il campo sia modificabile dagli utenti stessi."
@@ -237,6 +251,14 @@ it:
       no_results_content_text: Crea un nuovo campo personalizzato
   concatenation:
     single: "oppure"
+  dry_validation:
+    errors:
+      rules:
+        label:
+          filled?: "must be filled"
+          not_unique: "must be unique within the same hierarchy level"
+    rules:
+      label: "Label"
   global_search:
     placeholder: "Cerca in %{app_title}"
     overwritten_tabs:
@@ -479,6 +501,8 @@ it:
       status_color_text: |
         Clicca per assegnare o modificare il colore di questo stato.
         Viene mostrato come tasto di stato e può essere utilizzato per evidenziare le macro-attività nella tabella.
+      status_default_text: |-
+        New work packages are by default set to this type. They cannot be read-only.
       status_excluded_from_totals_text: |-
         Seleziona questa opzione per escludere i pacchetti di lavoro con questo stato dai totali di Lavoro,
         Lavoro rimanente e % Completamento in una gerarchia.
@@ -1812,6 +1836,7 @@ it:
       progress_mode_changed_to_status_based: "Calcolo dei progressi aggiornato"
       status_changed: "Stato '%{status_name}'"
       system_update: "Aggiornamento del sistema OpenProject:"
+      work_package_duplicate_closed: "Duplicate work package updated:"
       total_percent_complete_mode_changed_to_work_weighted_average: "Il calcolo dei totali della % completamento è ora ponderato in base al Lavoro."
       total_percent_complete_mode_changed_to_simple_average: "Il calcolo dei totali della % completamento si basa ora su una media semplice dei soli valori della % completamento."
     cause_descriptions:
@@ -1819,6 +1844,7 @@ it:
       work_package_parent_changed_times: da modifiche al genitore %{link}
       work_package_children_changed_times: da modifiche al figlio %{link}
       work_package_related_changed_times: da modifiche a elemento correlato %{link}
+      work_package_duplicate_closed: The status was automatically updated by the duplicated work package %{link}
       unaccessable_work_package_changed: da modifiche a macro-attività correlata
       working_days_changed:
         changed: "da modifiche ai giorni lavorativi (%{changes})"
@@ -2028,7 +2054,6 @@ it:
   label_check_uncheck_all_in_row: "Seleziona/deseleziona tutto nella riga"
   label_child_element: "Elemento figlio"
   label_choices: "Scelte"
-  label_chronological_order: "Prima i meno recenti"
   label_close_versions: "Chiudi le versioni complete"
   label_closed_work_packages: "chiuso"
   label_collapse: "Comprimi"
@@ -2394,7 +2419,6 @@ it:
   label_required: "obbligatorio"
   label_requires: "richiede"
   label_result_plural: "Risultati"
-  label_reverse_chronological_order: "Prima i più recenti"
   label_revision: "Revisione"
   label_revision_id: "Revisione %{value}"
   label_revision_plural: "Revisioni"
