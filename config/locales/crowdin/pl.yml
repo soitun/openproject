@@ -4368,6 +4368,7 @@ pl:
   text_access_token_hint: "Tokeny dostępu umożliwiają zewnętrznym aplikacjom dostęp do zasobów w OpenProject."
   text_analyze: "Further analyze: %{subject}"
   text_are_you_sure: "Jesteś pewien?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Czy na pewno chcesz kontynuować?"
   text_are_you_sure_with_children: "Usunąć pakiet roboczy i wszystkie podrzędne pakiety?"
   text_are_you_sure_with_project_custom_fields: "Usunięcie tego atrybutu spowoduje również usunięcie jego wartości we wszystkich projektach. Czy na pewno chcesz to zrobić?"

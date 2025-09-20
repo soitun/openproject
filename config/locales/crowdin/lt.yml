@@ -4369,6 +4369,7 @@ lt:
   text_access_token_hint: "Prieigos raktai leidžia išorinėms aplikacijoms pasiekti OpenProject resursus."
   text_analyze: "Toliau analizuoti: %{subject}"
   text_are_you_sure: "Ar esate įsitikinę?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Ar tikrai norite tęsti?"
   text_are_you_sure_with_children: "Ištrinti darbų paketą ir visus jo vaikų paketus?"
   text_are_you_sure_with_project_custom_fields: "Ištrynus šį atributą taipogi bus ištrintos ir jo reikšmės visuose projektuose. Ar tikrai norite tai padaryti?"

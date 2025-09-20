@@ -4328,6 +4328,7 @@ hr:
   text_access_token_hint: "Pristupni tokeni omogućavaju vanjskim aplikacijama pristup resursima unutar OpenProjecta."
   text_analyze: "Dodatnaanaliza: %{subject}"
   text_are_you_sure: "Da li ste sigurni?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Izbriši radni paket i sve podređene radne pakete?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

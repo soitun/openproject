@@ -4279,6 +4279,7 @@ hu:
   text_access_token_hint: "Hozzáférés tokennel lehetővé teszi, hogy külső alkalmazások hozzáférhessenek az OpenProject forrásaihoz."
   text_analyze: "További elemzése: %{subject}"
   text_are_you_sure: "Biztos vagy benne?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Törli a feladatcsoportot és minden hozzá tartozó gyermek feladatcsoportot?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

@@ -4279,6 +4279,7 @@ fr:
   text_access_token_hint: "Les jetons d'accès vous permettent d'octroyer aux applications externes un accès aux ressources dans OpenProject."
   text_analyze: "Analyse suivante: %{subject}"
   text_are_you_sure: "Êtes-vous sûr ?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Voulez-vous vraiment continuer ?"
   text_are_you_sure_with_children: "Supprimer le lot de travaux et tous les lots de travaux enfants ?"
   text_are_you_sure_with_project_custom_fields: "Supprimer cet attribut supprimera également ses valeurs dans tous les projets. Voulez-vous vraiment continuer ?"

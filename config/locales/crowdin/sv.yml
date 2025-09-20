@@ -4279,6 +4279,7 @@ sv:
   text_access_token_hint: "Åtkomstnycklar gör det möjligt för externa applikationer att komma åt OpenProject-resurser."
   text_analyze: "Vidare analys: %{subject}"
   text_are_you_sure: "Är du säker?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Ta bort arbetspaket och alla underarbetspaket?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

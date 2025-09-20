@@ -4374,6 +4374,7 @@ sk:
   text_access_token_hint: "Prístupové tokeny umožňujú udeliť externých aplikácií prístup k zdrojom v OpenProject."
   text_analyze: "Ďalej analyzovať: %{subject}"
   text_are_you_sure: "Ste si istí?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Zmazať pracovný balíček a všetky podradené pracovné balíčky?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

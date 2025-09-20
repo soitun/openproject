@@ -4231,6 +4231,7 @@ ms:
   text_access_token_hint: "Token akses membenarkan anda untuk memberikan aplikasi luaran akses kepada sumber data OpenProject."
   text_analyze: "Analisis selanjutnya: %{subject}"
   text_are_you_sure: "Adakah anda pasti?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Adakah anda pasti anda ingin teruskan?"
   text_are_you_sure_with_children: "Padam pakej kerja dan semua pakej kerja anak?"
   text_are_you_sure_with_project_custom_fields: "Memadam atribut ini akan memadam nilainya dalam semua projek. Adakah anda pasti anda ingin lakukan ini?"

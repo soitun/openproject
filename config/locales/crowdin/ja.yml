@@ -3395,7 +3395,7 @@ ja:
       including_mention_plural: "%{number_mentioned} のメンションを含む"
       unread_notification_singular: "1通の未読通知"
       unread_notification_plural: "%{number_unread} 未読の通知"
-      you_have: "持っている"
+      you_have: "あなたへの"
     logo_alt_text: "ロゴ"
     mention:
       subject: "%{user_name} さんが #%{id} - %{subject} であなたをメンションしました"
@@ -3403,7 +3403,7 @@ ja:
       center: "通知センターへ"
       see_in_center: "通知センターにコメントを表示"
       settings: "メール設定の変更"
-    salutation: "こんにちは %{user}"
+    salutation: "%{user}さん，こんにちは"
     salutation_full_name: "フルネーム"
     work_packages:
       created_at: "%{timestamp} で %{user} によって作成されました "
@@ -4233,6 +4233,7 @@ ja:
   text_access_token_hint: "アクセストークンで、外部アプリケーションが OpenProject のリソースへのアクセスを許可することができます。"
   text_analyze: "さらに分析: %{subject}"
   text_are_you_sure: "よろしいですか？"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "続行してもよろしいですか？"
   text_are_you_sure_with_children: "仕事項目と子項目を削除してもよろしいですか？"
   text_are_you_sure_with_project_custom_fields: "この属性を削除すると、すべてのプロジェクトの値も削除されます。よろしいですか？"

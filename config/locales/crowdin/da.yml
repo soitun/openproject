@@ -4277,6 +4277,7 @@ da:
   text_access_token_hint: "Adgangstegn tillader dig at tildele eksterne applikationer adgang til ressourcer i OpenProject."
   text_analyze: "Yderligere gennemgang: %{subject}"
   text_are_you_sure: "Er du sikker?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Slet arbejdspakker og alle underordnede pakker?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

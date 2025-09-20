@@ -4278,6 +4278,7 @@ it:
   text_access_token_hint: "I token di accesso consentono di concedere ad applicazioni esterne l'accesso alle risorse in OpenProject."
   text_analyze: "Analizzare ulteriormente: %{subject}"
   text_are_you_sure: "Sei sicuro?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Vuoi davvero continuare?"
   text_are_you_sure_with_children: "Eliminare la macro-attività e tutte le sue sotto-attività?"
   text_are_you_sure_with_project_custom_fields: "L'eliminazione di questo attributo eliminerà anche i suoi valori in tutti i progetti. Continuare?"

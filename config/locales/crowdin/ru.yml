@@ -4370,6 +4370,7 @@ ru:
   text_access_token_hint: "Маркеры доступа позволяют предоставить внешним приложениям доступ к ресурсам в OpenProject."
   text_analyze: "Дополнительный анализ: %{subject}"
   text_are_you_sure: "Вы уверены?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Вы уверены, что хотите продолжить?"
   text_are_you_sure_with_children: "Удалить пакет работ и все дочерние пакеты работ?"
   text_are_you_sure_with_project_custom_fields: "Удаление этого атрибута также приведет к удалению его значений во всех проектах. Вы уверены, что хотите это сделать?"

@@ -4234,6 +4234,7 @@ vi:
   text_access_token_hint: "Mã truy cập cho phép bạn cấp quyền cho các ứng dụng bên ngoài truy cập tài nguyên trong OpenProject."
   text_analyze: "Phân tích thêm: %{subject}"
   text_are_you_sure: "Bạn có chắc không?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Bạn có chắc chắn muốn tiếp tục không?"
   text_are_you_sure_with_children: "Xóa gói công việc và tất cả các gói công việc con?"
   text_are_you_sure_with_project_custom_fields: "Xóa thuộc tính này cũng sẽ xóa các giá trị của nó trong tất cả các dự án. Bạn có chắc chắn muốn làm điều này không?"

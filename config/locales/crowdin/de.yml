@@ -4273,6 +4273,7 @@ de:
   text_access_token_hint: "Zugangs-Tokens erlauben es externen Applikationen Zugriff auf OpenProject zu erhalten."
   text_analyze: "Weiter analysieren: %{subject}"
   text_are_you_sure: "Sind Sie sicher?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Sind Sie sicher, dass Sie fortfahren möchten?"
   text_are_you_sure_with_children: "Lösche Aufgabe und alle Unteraufgaben?"
   text_are_you_sure_with_project_custom_fields: "Wenn Sie dieses Attribut löschen, werden auch dessen Werte in allen Projekten gelöscht. Sind Sie sicher, dass Sie dies tun möchten?"

@@ -4280,6 +4280,7 @@
   text_access_token_hint: "Tilgang til nøkler tillater deg å gi eksterne applikasjoner tilgang til ressurser i OpenProject."
   text_analyze: "Videre analyse: %{subject}"
   text_are_you_sure: "Er du sikker?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Er du sikker på at du vil fortsette?"
   text_are_you_sure_with_children: "Slette arbeidspakken og alle underordnede arbeidspakker?"
   text_are_you_sure_with_project_custom_fields: "Hvis du sletter dette attributtet, slettes også dets verdier i alle prosjekter. Er du sikker på at du vil gjøre dette?"

@@ -4275,6 +4275,7 @@ pt-PT:
   text_access_token_hint: "Tokens de acesso permitem que conceda acesso de aplicações externas para recursos em OpenProject."
   text_analyze: "Mais análise: %{subject}"
   text_are_you_sure: "Tem a certeza?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Tem a certeza que deseja continuar?"
   text_are_you_sure_with_children: "Apagar o pacote de trabalho e todos os pacotes de trabalho filhos?"
   text_are_you_sure_with_project_custom_fields: "A eliminação deste atributo também elimina os seus valores em todos os projetos. Tem a certeza de que pretende fazê-lo?"

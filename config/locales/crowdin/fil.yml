@@ -4279,6 +4279,7 @@ fil:
   text_access_token_hint: "Ang access token ay pinayagan kang pagbigyan ang external applications access sa pinagkukunan sa OpenProject."
   text_analyze: "Karagdagang pagsusuri: %{subject}"
   text_are_you_sure: "Sigurado ka ba?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Burahi ang work packaage at lahag ng batang work pckage?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

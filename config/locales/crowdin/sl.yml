@@ -4373,6 +4373,7 @@ sl:
   text_access_token_hint: "Žetoni dostopa vam omogočajo, da zunanjim aplikacijam omogočite dostop do virov v OpenProjectu."
   text_analyze: "Nadaljnja analiza: %{subject}"
   text_are_you_sure: "Ste prepričani?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "Izbrišite delovni paket in vse njegove podrejene delovne pakete?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

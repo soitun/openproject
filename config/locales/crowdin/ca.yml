@@ -4272,6 +4272,7 @@ ca:
   text_access_token_hint: "Els token d'accés permeten que aplicacions externes accedeixin als recursos d'OpenProject."
   text_analyze: "Analitzar més en profunditat: %{subject}"
   text_are_you_sure: "N'estàs segur?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Estàs segur que vols continuar?"
   text_are_you_sure_with_children: "Vols suprimir el paquet de treball i tots els paquets de treball fills?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"

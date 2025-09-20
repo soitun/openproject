@@ -4281,6 +4281,7 @@ si:
   text_access_token_hint: "ප්රවේශ ටෝකන ඔබට OpenProject හි සම්පත් සඳහා බාහිර යෙදුම් ප්රවේශය ලබා දීමට ඉඩ සලසයි."
   text_analyze: "තවදුරටත් විශ්ලේෂණය: %{subject}"
   text_are_you_sure: "ඔබට විශ්වාසද?"
+  open_link_in_a_new_tab: "Open link in a new tab"
   text_are_you_sure_continue: "Are you sure you want to continue?"
   text_are_you_sure_with_children: "වැඩ පැකේජය සහ සියලුම ළමා වැඩ පැකේජ මකන්න?"
   text_are_you_sure_with_project_custom_fields: "Deleting this attribute will also delete its values in all projects. Are you sure you want to do this?"
