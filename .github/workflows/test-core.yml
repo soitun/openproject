@@ -32,7 +32,7 @@ jobs:
       DOCKER_BUILDKIT: 1
       CI_RETRY_COUNT: 3
     steps:
-    - uses: runs-on/action@v2
+    - uses: runs-on/action@v2.1.0
       with:
         metrics: cpu,memory,disk,io,network
     - uses: actions/checkout@v6
